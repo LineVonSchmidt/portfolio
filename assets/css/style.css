@@ -1,0 +1,444 @@
+Body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  width: 1280px;
+  height: 630px;
+  margin-top: 0;
+}
+
+header img {
+  position: absolute;
+  z-index: -1;
+}
+
+nav {
+  width: 100%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+#logo img {
+  position: absolute;
+  width: 13%;
+  padding: 4px;
+  margin-left: 10%;
+  z-index: 1
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+  padding: 0px;
+}
+
+li a {
+  /*display: inline; skulle have været slettet */
+  color: black;
+  text-align: center;
+  padding: 45px;
+  text-decoration: none;
+  font-family: times new roman;
+  font-size: 18px;
+  margin: 0px;
+}
+
+li a:hover {
+  background-color: #BBBBBE;
+}
+
+#services {
+  width: 100%;
+  height: 210px;
+  background-color: #E3E3E0;
+}
+
+#statement {
+  width: 100%;
+  height: 400px;
+  background-color: #BBBBBE;
+}
+
+#skills {
+  width: 100%;
+  height: 320px;
+  background-color: #FAFAFA;
+}
+
+#portfolio {
+  width: 100%;
+  height: 400px;
+  background-color: #D9DBDA;
+}
+
+#portfolio form {
+  margin-top: -22px;
+  width: 550px;
+}
+
+#kontakt {
+  width: 100%;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+#ommig {
+  width: 100%;
+  height: 240px;
+  background-color: #E3E3E0;
+}
+
+/*.big-mig {} skulle have været slettet*/
+
+.big-mig img {
+  position: absolute;
+  right: 18%;
+  top: -66%;
+  transform: scale(.2);
+}
+
+#ommigto {
+  width: 100%;
+  height: 420px;
+  background-color: #BBBBBE;
+}
+
+#logoside {
+  margin-left: 693px;
+  margin-top: 50px;
+  height: 30%;
+  width: 30%;
+}
+
+#underskrift {
+  margin-left: 140px;
+  transform: scale(.4);
+  margin-top: -170px;
+}
+
+.statementtekst-flex {
+  flex: 2;
+  margin-right: 90px;
+}
+
+.statementtekst-flex form {
+  position: relative;
+  left: -95px;
+}
+
+#statementtekst {
+  font-family: helvetica Neue;
+  font-size: 19px;
+  position: relative;
+  top: 30px;
+  line-height: 1.25;
+}
+
+.semere input {
+  position: relative;
+  top: 60px;
+  font-family: helvetica Neue;
+  font-size: 14px;
+}
+
+.semereto input {
+  bottom: 50px;
+  font-family: helvetica Neue;
+  font-size: 14px;
+  position: relative;
+}
+
+.mig-flex {
+  flex: 1;
+}
+
+#mig {
+  position: relative;
+  height: 200px;
+  left: 40%;
+  top: 20%;
+  transform: translate(-50%, 0%);
+  transform: scale(1.5);
+}
+
+#tekstommigto, #tekstommig {
+  margin-left: 350px;
+}
+
+#tekstommig {
+  padding-top: 30px;
+}
+
+#tekstommigto span, #tekstommig span {
+  font-family: helvetica Neue;
+  font-size: 19px;
+  line-height: 1.25;
+}
+
+#projektet {
+  width: 100%;
+  height: 400px;
+  background-color: #BBBBBE;
+}
+
+.flexportolioet {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 900px;
+  font-family: helvetica Neue;
+  font-size: 16px;
+  /*justify-content: space-between; bør nok have været slettet*/
+}
+
+.flexportolioet p {
+  flex: 2;
+  margin-left: 15px;
+  line-height: 1.25;
+  font-size: 19px;
+}
+
+.sprite {
+  flex: 1;
+  width: 300px;
+  height: 300px;
+  background: url('../billede/artboard1.png') 0 0 no-repeat;
+  animation: play 2s steps(9) infinite;
+}
+
+@keyframes play {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: -2700px;
+  }
+}
+
+#projektto {
+  width: 100%;
+  height: 400px;
+  background-color: #FAFAFA;
+}
+
+.flexportolioto {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 900px;
+  font-family: helvetica Neue;
+  font-size: 16px;
+  /*justify-content: space-between; bør nok have været slettet*/
+}
+
+.flexportolioto p {
+  font-size: 19px;
+  line-height: 1.25;
+  flex: 2;
+  margin-right: 15px;
+}
+
+.flexportolioto img {
+  flex: 1;
+  height: 390.8px;
+  transform: scale(.9);
+  position: relative;
+  top: -30px;
+}
+
+#projekttre {
+  width: 100%;
+  height: 400px;
+  background-color: #D9DBDA;
+}
+
+.flexportoliotre {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  width: 900px;
+  font-family: helvetica Neue;
+  font-size: 16px;
+  justify-content: space-between;
+}
+
+.flexportoliotre p {
+  flex: 2;
+  line-height: 1.25;
+  font-size: 19px;
+  margin-left: 15px;
+}
+
+.sm {
+  height: 30px;
+  float: right;
+  position: relative;
+  top: 50%;
+}
+
+.content {
+  width: 930px;
+  height: 400px;
+  margin: auto;
+  font-family: helvetica Neue;
+  padding: 10px 15px 10px 15px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Times New Roman";
+  letter-spacing: 2px;
+  margin-top: auto;
+}
+
+.active {
+  font-weight: bold;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #D9D4D4;
+  border-radius: 10px;
+  margin-top: 1px;
+  margin-bottom: 8px;
+  font-family: helvetica Neue;
+  font-size: 14px;
+}
+
+input[type=submit] {
+  background-color: #656464;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  margin: auto;
+  font-family: helvetica Neue;
+  font-size: 14px;
+  color: white;
+  width: 50%;
+}
+
+input[type=submit]:hover {
+  background-color: #312F2F;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+form {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+
+/*footer*/
+
+footer {
+  width: 100%;
+  /*height: 33px; skulle have været et højere tal og have slettet padding-bottom.*/
+  background-color: #484747;
+  padding-bottom: 99px;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+#flexservices {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 880px;
+  font-family: helvetica Neue;
+  font-size: 16px;
+}
+
+.serviceikon {
+  /*der skulle målse have været en flex her*/
+  width: 70px;
+  height: 70px;
+  margin: 8px;
+}
+
+#flexprogram {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  width: 920px;
+}
+
+#flexprogramet {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: flex-start; den gør ikke noget, ved egentligt ikke hvorfor den er der*/
+  margin-left: 83px;
+}
+
+.programkendskaber {
+  width: 208px;
+  height: 180px;
+  margin: 8px;
+}
+
+.programtekst {
+  font-family: helvetica Neue;
+  font-size: 19px;
+}
+
+#flexportfolio {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: center; skulle have været slettet*/
+  margin: auto;
+}
+
+.portfoliobilledeet {
+  width: auto;
+  margin: 10px;
+  height: 258px;
+}
+
+.kontakt-informationer {
+  flex: 1;
+  text-align: center;
+}
+
+.kontakt-informationer p {
+  position: relative;
+  top: 50%;
+  color: #E2E4E5;
+  transform: translate(0%, -50%);
+}
+
+.social {
+  flex: 1;
+}
+
+.sm2 {
+  margin-right: 150px;
+}
+
+.copyright {
+  flex: 1;
+  color: #E2E4E5;
+  text-align: center;
+  position: relative;
+  top: 110px;
+  margin: 0;
+  padding: 0;
+}
